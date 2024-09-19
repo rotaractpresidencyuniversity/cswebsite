@@ -1,0 +1,229 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #fafafa;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #f1eded;
+}
+
+h4 {
+    font-size: 120px;
+    color: #ffffff;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 54px;
+}
+
+p {
+    font-size: 16px;
+    color: whitesmoke;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #546b94;
+    box-shadow: white;
+    z-index: 999;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+
+.logo {
+    width: 150px;
+    height: 120px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    transition: 0.35s ease;
+}
+
+#navbar li a:hover,
+:active {
+    color: #088178;
+}
+
+#girlpic {
+    background-image: url(images/dress1.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0, 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 160px;
+
+}
+
+#girlpic h1,
+h2 {
+    margin-left: 90px;
+}
+
+#girlpic h4 {
+    color: chocolate;
+}
+
+#girlpic p {
+    margin-left: 110px;
+    color: #088178
+}
+
+.btn:hover {
+    color: blue;
+    background-color: deeppink
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 250px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 40px 40px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid#f7faf7;
+    border-radius: 6px;
+    margin: 30px 20px;
+}
+
+#feature .fe-box p {
+    background-color: #f1eded;
+    color: black;
+    font-size: 15px;
+}
+
+#feature .fe-box h6 {
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 0;
+    background-color: burlywood;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 20px 20px 54px rgba(70, 52, 22, 0.3);
+}
+
+
+
+#feature .shoe {
+    width: 210px
+}
+
+.sales {
+    margin: 30px;
+    margin-left: 35%;
+}
+
+#getr {
+    font-size: 60px;
+    color: black;
+
+}
+
+#start {
+    font-size: 40px;
+    color: black;
+}
+
+
+#featu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#featu .img {
+    width: 500px;
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 40px 40px 34px rgba(238, 10, 10, 0.3);
+    border: 1px solid#f7faf7;
+    border-radius: 6px;
+    margin: 30px 60px;
+}
+
+#featu .fashitem {
+    width: 450px;
+}
+
+#featu .fashitems {
+    height: 300px;
+    width: 450px;
+}
+
+#featu .img:hover {
+    box-shadow: 20px 20px 54px rgba(241, 39, 56, 0.3);
+}
+
+.foot {
+    margin-top: 60px;
+    margin-bottom: 0%;
+    background-color: rgb(97, 97, 233);
+    padding: 20px;
+}
+
+.fa-square-instagram {
+    font-size: 40px;
+    color: white
+}
+
+.fa-linkedin {
+    font-size: 40px;
+    color: white;
+
+}
